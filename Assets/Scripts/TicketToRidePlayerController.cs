@@ -8,9 +8,21 @@ public class TicketToRidePlayerController : MonoBehaviour
     public int maxTicketsInHand = 10;  // Maximum number of tickets in the player's hand
     private int ticketsInHand = 0;  // Number of tickets currently in the player's hand
 
+    public TicketToRidePlayerController[] players; // Array of player controllers
+
     private void Start()
     {
         DrawInitialTickets();
+
+        // Example usage: Access each player controller in the array
+        for (int i = 0; i < players.Length; i++)
+        {
+            TicketToRidePlayerController player = players[i];
+            TicketToRidePlayerController player2 = players[i];
+            TicketToRidePlayerController player3 = players[i];
+            TicketToRidePlayerController player4 = players[i];
+            player.DrawInitialTickets();
+        }
     }
 
     // Draw initial tickets for the player

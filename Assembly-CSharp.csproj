@@ -60,6 +60,9 @@
     <Compile Include="Assets\Scripts\TicketToRideDrawPile.cs" />
     <Compile Include="Assets\Scripts\TicketToRidePlayerController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Card Dealer.cs" />
+    <Compile Include="Assets\Scripts\TrainCardPool.cs" />
+    <Compile Include="Assets\Scripts\TicketCardHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

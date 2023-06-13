@@ -14,7 +14,7 @@ public class TicketToRideDrawPile : MonoBehaviour
     }
 
     // Initialize the draw pile with ticket card game objects
-    private void InitializeDrawPile()
+    public void InitializeDrawPile()
     {
         drawPile = new List<GameObject>(ticketCards);
     }
